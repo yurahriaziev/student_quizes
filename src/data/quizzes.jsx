@@ -116,4 +116,121 @@ export const quizzes = [
 			},
 		],
 	},
+	{
+		id: 'variables-data-types-review',
+		title: 'Variables & Data Types Review',
+		password: 'vars',
+		questions: [
+			{
+				id: 1,
+				question: 'Which line correctly creates a variable called name?',
+				options: [
+					'name = "Leo"',
+					'"Leo" = name',
+					'name == "Leo"',
+					'name "Leo"',
+				],
+				correctAnswer: 'name = "Leo"',
+			},
+			{
+				id: 2,
+				question: 'Which of these values is a string?',
+				options: [
+					'12',
+					'"cat"',
+					'True',
+					'[1, 2, 3]',
+				],
+				correctAnswer: '"cat"',
+			},
+			{
+				id: 3,
+				question: 'Which of these values is an integer?',
+				options: [
+					'"25"',
+					'25',
+					'False',
+					'[25]',
+				],
+				correctAnswer: '25',
+			},
+			{
+				id: 4,
+				question: 'Which of these values is a list?',
+				options: [
+					'"red, blue, green"',
+					'10',
+					'["red", "blue", "green"]',
+					'True',
+				],
+				correctAnswer: '["red", "blue", "green"]',
+			},
+			{
+				id: 5,
+				question: 'Which of these values is a Boolean?',
+				options: [
+					'"False"',
+					'0',
+					'False',
+					'[False]',
+				],
+				correctAnswer: 'False',
+			},
+			{
+				id: 6,
+				question: 'What data type is age in: age = 7?',
+				options: [
+					'str',
+					'int',
+					'list',
+					'bool',
+				],
+				correctAnswer: 'int',
+			},
+			{
+				id: 7,
+				question: 'What data type is name in: name = "Leo"?',
+				options: [
+					'str',
+					'int',
+					'list',
+					'bool',
+				],
+				correctAnswer: 'str',
+			},
+			{
+				id: 8,
+				question: 'What data type is pets in: pets = ["cat", "dog"]?',
+				options: [
+					'str',
+					'int',
+					'list',
+					'bool',
+				],
+				correctAnswer: 'list',
+			},
+			{
+				id: 9,
+				question: 'What data type is gameStarted in: gameStarted = True?',
+				options: [
+					'str',
+					'int',
+					'list',
+					'bool',
+				],
+				correctAnswer: 'bool',
+			},
+			{
+				id: 10,
+				question: 'Which line creates a variable called score and gives it the integer 10?',
+				options: [
+					'score = "10"',
+					'score = 10',
+					'10 = score',
+					'score == 10',
+				],
+				correctAnswer: 'score = 10',
+			},
+		],
+	},
 ]
