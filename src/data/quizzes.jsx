@@ -233,4 +233,91 @@ export const quizzes = [
 			},
 		],
 	},
+	{
+		id: 'python-mini-challenge',
+		title: 'Python Mini Challenge',
+		password: 'mini',
+		questions: [
+			{
+				id: 1,
+				question: 'What does print() do?',
+				options: [
+					'Saves a game',
+					'Shows something on the screen',
+					'Deletes a variable',
+					'Turns off Python',
+				],
+				correctAnswer: 'Shows something on the screen',
+			},
+			{
+				id: 2,
+				question: 'What will print(4 + 2) show?',
+				options: ['42', '2', '6', '4'],
+				correctAnswer: '6',
+			},
+			{
+				id: 3,
+				question: 'Which value is an integer?',
+				options: ['"7"', 'False', '[7]', '7'],
+				correctAnswer: '7',
+			},
+			{
+				id: 4,
+				question: 'What is stored in pet = "Dog"?',
+				options: [
+					'A string',
+					'An integer',
+					'A list',
+					'A boolean',
+				],
+				correctAnswer: 'A string',
+			},
+			{
+				id: 5,
+				question: 'What will print("Hello") show?',
+				options: [
+					'Hello',
+					'Nothing',
+					'print',
+					'Error',
+				],
+				correctAnswer: 'Hello',
+			},
+			{
+				id: 6,
+				question: 'What will this print? coins = 5; print(coins)',
+				options: ['coins', '10', '5', 'Error'],
+				correctAnswer: '5',
+			},
+			{
+				id: 7,
+				question: 'Which one is a boolean?',
+				options: ['"True"', 'True', '100', '[True]'],
+				correctAnswer: 'True',
+			},
+			{
+				id: 8,
+				question: 'Which line creates a list?',
+				options: [
+					'food = "pizza"',
+					'food = 5',
+					'food = False',
+					'food = ["pizza", "cake"]',
+				],
+				correctAnswer: 'food = ["pizza", "cake"]',
+			},
+			{
+				id: 9,
+				question: 'What will this print? score = 10; score = score + 5; print(score)',
+				options: ['10', '5', '15', '105'],
+				correctAnswer: '15',
+			},
+			{
+				id: 10,
+				question: 'What will this print? lives = 3; lives = lives - 1; print(lives)',
+				options: ['4', '3', '1', '2'],
+				correctAnswer: '2',
+			},
+		],
+	},
 ]
